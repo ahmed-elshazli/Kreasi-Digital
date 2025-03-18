@@ -1,0 +1,31 @@
+@import "./root.css";
+@import "./reset.css";
+@import "./global.css";
+@import "./navbar.css";
+@import "./home_banner.css";
+@import "./trusted_section.css";
+@import "./time_line.css";
+@import "./trusted.css";
+@import "./project.css";
+@import "./explore.css";
+@import "./testimonial.css";
+@import "./work.css";
+@import "./footer.css";
+
+/* setup font family  */
+@font-face {
+    font-family: Satoshi-Regular;
+    src: url(../assets/fonts/Satoshi_Complete/Satoshi-Regular.ttf);
+}
+@font-face {
+    font-family: Satoshi-Medium;
+    src: url(../assets/fonts/Satoshi_Complete/Satoshi-Medium.ttf);
+}
+@font-face {
+    font-family: Satoshi-Bold;
+    src: url(../assets/fonts/Satoshi_Complete/Satoshi-Bold.ttf);
+}
+/* start global style  */
+body {
+    font-family: Satoshi-Regular;
+}

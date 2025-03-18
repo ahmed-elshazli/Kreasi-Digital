@@ -1,0 +1,126 @@
+.time_line {
+    width: 100%;
+    padding: 2em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-bottom: 3em;
+}
+
+.time_line_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    width: 90%;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.time_line_text {
+    width: 36%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8em;
+}
+
+.time_line_text span {
+    font-size: 0.8em;
+    color: var(--black-secondray-color);
+    width: 70%;
+}
+
+.time_line_text h2 {
+    font-size: 3em;
+    color: var(--black-color);
+    font-family: Satoshi-Regular;
+    margin-bottom: 0.5em;
+}
+
+.time_line_image_text {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.time_line_image_text h4 {
+    color: var(--black-color);
+    font-size: 1.5em;
+}
+
+.time_line_image_text_radio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+
+.time_line_image_text_radio i {
+    color: var(--main-color);
+    font-size: 0.8em;
+}
+
+.time_line_image_text_radio div {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.time_line_image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+
+@media (max-width: 1024px) {
+    .time_line_container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .time_line_text {
+        width: 80%;
+        text-align: center;
+    }
+
+    .time_line_image {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .time_line {
+        padding: 2em 1em;
+    }
+
+    .time_line_text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .time_line_text h2 {
+        font-size: 2.5em;
+    }
+
+    .time_line_image {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .time_line_text h2 {
+        font-size: 2em;
+    }
+
+    .time_line_text span {
+        width: 100%;
+    }
+
+    .time_line_image {
+        width: 100%;
+    }
+}
